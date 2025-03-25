@@ -1,0 +1,43 @@
+{
+  "name": "slidev-theme-polyu",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "香港理工大学 Slidev 主题",
+  "author": "DAI Zheli",
+  "license": "MIT",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "polyu",
+    "polytechnic university",
+    "hong kong"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^51.4.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^51.4.0"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      },
+      "themeConfig": {
+        "primary": "#a6192e"
+      }
+    }
+  }
+}

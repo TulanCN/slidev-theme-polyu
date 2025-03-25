@@ -1,0 +1,42 @@
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #a6192e;
+  --polyu-red: #a6192e;
+  --polyu-grey: #58595b;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-4xl leading-tight font-bold;
+    color: white;
+  }
+
+  h2 {
+    @apply text-2xl;
+    color: white;
+  }
+
+  h3 {
+    @apply text-xl;
+    color: white;
+  }
+
+  p {
+    @apply text-lg;
+    color: white;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-75 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
