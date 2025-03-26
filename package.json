@@ -22,6 +22,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
+    "@slidev/theme-default": "^0.25.0",
     "@slidev/types": "^51.4.0"
   },
   "devDependencies": {

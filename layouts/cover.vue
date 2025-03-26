@@ -35,7 +35,7 @@
 }
 
 .title-container {
-  padding: 50px;
+  padding: 30px;
   background-color: #a6192e;
   color: white;
   margin-top: 80px;

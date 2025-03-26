@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+这是个slidev的主题项目，使用Vue3和markdown语法。
